@@ -1,4 +1,3 @@
-
  export default function Home() {
   return (
     <>
@@ -9,6 +8,4 @@
   )
 }
 
-//import { UserButton } from "@clerk/nextjs";
-//<UserButton afterSignOutUrl="/"/>
 

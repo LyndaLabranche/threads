@@ -1,4 +1,4 @@
-// File: C:\Users\lynda\OneDrive\Desktop\React_Projects\threads\app\(auth)\layout.tsx
+// File: C:\Users\lynda\OneDrive\Desktop\GitHub2_Projects\threads\app\(auth)\layout.tsx
 import * as entry from '../../../../app/(auth)/layout.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

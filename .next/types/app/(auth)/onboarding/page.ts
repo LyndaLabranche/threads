@@ -1,4 +1,4 @@
-// File: C:\Users\lynda\OneDrive\Desktop\React_Projects\threads\app\(auth)\onboarding\page.tsx
+// File: C:\Users\lynda\OneDrive\Desktop\GitHub2_Projects\threads\app\(auth)\onboarding\page.tsx
 import * as entry from '../../../../../app/(auth)/onboarding/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

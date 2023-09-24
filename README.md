@@ -7,10 +7,15 @@ Web Dev Tools included in Threads Project:
 -mongoose
 -svix
 -Tailwind
+-zod
 
 Issues during coding:
 -needed to install tailwindcss-animate plugin to compile and apply Tailwind styles
 -import didn't update despite selecting options when moving file to another folder
+-Organization switcher not appearing; needed to enable it in clerk account online
+-shadcn overwrites previous global.css and tailwind.config.js (need to have save them in git to retrieve again)
+*Clerk username show [object object] instead of Google username; able to put in own username. SOL'N (toString??? of user object???)
+*InvalidStateError: Failed to set the 'value' property on 'HTMLInputElement': This input element accepts a filename, which may only be programmatically set to the empty string. Solution: In input element for image add value={''}
 
 ===========================
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
