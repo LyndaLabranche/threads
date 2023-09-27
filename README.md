@@ -14,7 +14,7 @@ Issues during coding:
 -import didn't update despite selecting options when moving file to another folder
 -Organization switcher not appearing; needed to enable it in clerk account online
 -shadcn overwrites previous global.css and tailwind.config.js (need to have save them in git to retrieve again)
-*Clerk username show [object object] instead of Google username; able to put in own username. SOL'N (toString??? of user object???)
+-Clerk username show [object object] instead of Google username; (accidentally set user property to user object; insead of a value user.username). Set to null by Google but code allows to add it to the form using "upsert" to database.
 *InvalidStateError: Failed to set the 'value' property on 'HTMLInputElement': This input element accepts a filename, which may only be programmatically set to the empty string. Solution: In input element for image add value={''}
 
 ===========================
