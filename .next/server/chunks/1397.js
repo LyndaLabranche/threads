@@ -1,0 +1,1 @@
+exports.id=1397,exports.ids=[1397],exports.modules={57481:(e,t,r)=>{"use strict";r.r(t),r.d(t,{default:()=>a});var s=r(96885);let a=e=>{let t=(0,s.fillMetadataSegment)(".",e.params,"favicon.ico");return[{type:"image/x-icon",sizes:"16x16",url:t+""}]}},67272:()=>{}};

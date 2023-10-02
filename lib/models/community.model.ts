@@ -8,18 +8,18 @@ const communitySchema = new mongoose.Schema ({
     bio: String,
     createdBy: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: "User"
+        ref: "User",
     },
     threads: [
         {
             type: mongoose.Schema.Types.ObjectId,
-            ref: "Thread"
+            ref: "Thread",
         }
     ],
     members: [
         {
             types: mongoose.Schema.Types.ObjectId,
-            ref: "User"
+            ref: "User",
         }
     ]
 });
