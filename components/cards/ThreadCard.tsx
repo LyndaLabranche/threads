@@ -1,4 +1,4 @@
-import User from "@/lib/models/user.models"
+import User from "@/lib/models/user.model"
 import Link from "next/link";
 import Image from "next/image";
 import { string } from "zod";
