@@ -1,5 +1,6 @@
 {
   "/(root)/page": "app/(root)/page.js",
-  "/(root)/create-thread/page": "app/(root)/create-thread/page.js",
+  "/(root)/activity/page": "app/(root)/activity/page.js",
+  "/(auth)/sign-in/[[...sign-in]]/page": "app/(auth)/sign-in/[[...sign-in]]/page.js",
   "/(root)/thread/[id]/page": "app/(root)/thread/[id]/page.js"
 }
