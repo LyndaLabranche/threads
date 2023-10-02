@@ -2,7 +2,7 @@
 
 const nextConfig = {
     typescript: {
-      ignoreBuildErrors: true
+      ignoreBuildErrors: true,
     },
     experimental: {
     serverActions: true,
