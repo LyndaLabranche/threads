@@ -1,0 +1,16 @@
+{
+  "/_not-found": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/api/uploadthing/route": "/api/uploadthing",
+  "/(root)/page": "/",
+  "/(root)/communities/page": "/communities",
+  "/(root)/create-thread/page": "/create-thread",
+  "/(root)/activity/page": "/activity",
+  "/(root)/search/page": "/search",
+  "/(auth)/onboarding/page": "/onboarding",
+  "/api/webhook/clerk/route": "/api/webhook/clerk",
+  "/(root)/profile/[id]/page": "/profile/[id]",
+  "/(auth)/sign-in/[[...sign-in]]/page": "/sign-in/[[...sign-in]]",
+  "/(auth)/sign-up/[[...sign-up]]/page": "/sign-up/[[...sign-up]]",
+  "/(root)/thread/[id]/page": "/thread/[id]"
+}
