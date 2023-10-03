@@ -38,12 +38,12 @@ interface Props {
 }
 
 const AccountProfile = ({user, btnTitle} : Props) => {
-    const [files, setFiles] = useState<File[]>([])
+    const [files, setFiles] = useState<File[]>([]);
     const { startUpload } = useUploadThing("media");
     const router = useRouter();
     const pathname  = usePathname();
 
-    const form = useForm({
+    const form = useForm<z.infer<typeof userValidation>>({
         resolver: zodResolver(userValidation),
         defaultValues: {
       profile_photo: user?.image ? user.image : "",
@@ -184,6 +184,3 @@ const AccountProfile = ({user, btnTitle} : Props) => {
 
 export default AccountProfile;
 
-function isbased64Image(blob: string) {
-    throw new Error('Function not implemented.');
-}

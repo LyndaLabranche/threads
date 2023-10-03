@@ -2,7 +2,7 @@
 
 const nextConfig = {
     typescript: {
-      ignoreBuildErrors: true
+      ignoreBuildErrors: true,
     },
     experimental: {
     serverActions: true,
@@ -35,4 +35,4 @@ const nextConfig = {
 }
 }
 
-module.exports = nextConfig
+module.exports = nextConfig;

@@ -13,6 +13,7 @@ import {
 } from "@/components/ui/form";
 import {zodResolver } from '@hookform/resolvers/zod';
 import { Textarea } from "@/components/ui/textarea";
+import { useOrganization} from "@clerk/nextjs"
 
 import { threadValidation } from '@/lib/validations/thread';
 import "../../app/globals.css";
@@ -36,6 +37,7 @@ interface Props {
 function PostThread({ userId }: { userId: string }) {
   const router = useRouter();
   const pathname  = usePathname();
+  const organization = useOrganization();
 
   const form = useForm({
         resolver: zodResolver(threadValidation),
@@ -49,7 +51,7 @@ function PostThread({ userId }: { userId: string }) {
     await createThread({ 
         text: values.thread,
         author: userId, 
-        communityId: null, 
+        communityId: organization ? organization.id : null, 
         path: pathname
     });
 
