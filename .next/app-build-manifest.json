@@ -11,42 +11,16 @@
       "static/css/app/(root)/layout.css",
       "static/chunks/app/(root)/layout.js"
     ],
-    "/(root)/communities/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(root)/communities/page.js"
-    ],
-    "/(root)/create-thread/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(root)/create-thread/page.css",
-      "static/chunks/app/(root)/create-thread/page.js"
-    ],
-    "/(auth)/sign-in/[[...sign-in]]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(auth)/sign-in/[[...sign-in]]/page.js"
-    ],
     "/(auth)/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/(auth)/layout.css",
       "static/chunks/app/(auth)/layout.js"
     ],
-    "/(root)/activity/page": [
+    "/(auth)/sign-in/[[...sign-in]]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(root)/activity/page.js"
-    ],
-    "/(root)/communities/[id]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(root)/communities/[id]/page.js"
-    ],
-    "/(root)/search/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(root)/search/page.js"
+      "static/chunks/app/(auth)/sign-in/[[...sign-in]]/page.js"
     ]
   }
 }
